@@ -1,0 +1,66 @@
+root = true  # Indicates that this .editorconfig file is the root configuration file.
+
+[*.{c,cc,cpp,h,hh,hpp}]  # Applies the following settings to C and C++ source code files.
+
+# Indentation related properties
+cpp_indent_braces = false                                  # Disables automatic indentation of braces.
+cpp_indent_multi_line_relative_to = outermost_parenthesis  # Multi-line statement indentation is based on the outermost parenthesis.
+cpp_indent_within_parentheses = indent                     # Indentation within parentheses is enabled.
+cpp_indent_preserve_within_parentheses = false             # Disables preserving indentation within parentheses.
+cpp_indent_case_contents = true                            # Indents the contents of a 'case' statement.
+cpp_indent_case_labels = true                              # Indents 'case' labels.
+cpp_indent_case_contents_when_block = false                # Does not indent 'case' contents when they are inside a block.
+cpp_indent_lambda_braces_when_parameter = false            # Does not indent lambda braces when they are parameters.
+cpp_indent_goto_labels = none                              # No specific indentation for 'goto' labels.
+cpp_indent_preprocessor = none                             # No specific indentation for preprocessor directives.
+cpp_indent_access_specifiers = true                        # Indents access specifiers (e.g., public, private) in classes.
+cpp_indent_namespace_contents = true                       # Indents the contents of namespaces.
+cpp_indent_preserve_comments = false                       # Does not preserve comments during indentation.
+
+# New line Related Properties
+cpp_new_line_before_open_brace_namespace = same_line  # Open braces for namespaces appear on the same line.
+cpp_new_line_before_open_brace_type = same_line  # Open braces for type definitions appear on the same line.
+cpp_new_line_before_open_brace_function = same_line  # Open braces for functions appear on the same line.
+cpp_new_line_before_open_brace_block = same_line  # Open braces for blocks appear on the same line.
+cpp_new_line_before_open_brace_lambda = same_line  # Open braces for lambda functions appear on the same line.
+cpp_new_line_scope_braces_on_separate_lines = true  # Scope braces appear on separate lines.
+cpp_new_line_close_brace_same_line_empty_type = true  # Close braces for empty type definitions are on the same line.
+cpp_new_line_close_brace_same_line_empty_function = true  # Close braces for empty functions are on the same line.
+cpp_new_line_before_catch = false  # No new line before 'catch' in exception handling.
+cpp_new_line_before_else = false  # No new line before 'else' in conditional statements.
+cpp_new_line_before_while_in_do_while = false  # No new line before 'while' in 'do-while' loops.
+
+# Spacing Related Properties
+cpp_space_before_function_open_parenthesis = remove  # Removes spaces before a function's opening parenthesis.
+cpp_space_within_parameter_list_parentheses = false  # No spaces within parameter list parentheses.
+cpp_space_between_empty_parameter_list_parentheses = false  # No spaces between empty parameter list parentheses.
+cpp_space_after_keywords_in_control_flow_statements = true  # Adds spaces after keywords in control flow statements.
+cpp_space_within_control_flow_statement_parentheses = false  # No spaces within control flow statement parentheses.
+cpp_space_before_lambda_open_parenthesis = false  # No space before lambda opening parenthesis.
+cpp_space_within_cast_parentheses = false  # No spaces within cast parentheses.
+cpp_space_after_cast_close_parenthesis = false  # No spaces after cast closing parenthesis.
+cpp_space_within_expression_parentheses = false  # No spaces within expression parentheses.
+cpp_space_before_block_open_brace = true  # Adds spaces before block opening braces.
+cpp_space_between_empty_braces = false  # No spaces between empty braces.
+cpp_space_before_initializer_list_open_brace = false  # No space before initializer list opening brace.
+cpp_space_within_initializer_list_braces = true  # Spaces within initializer list braces.
+cpp_space_preserve_in_initializer_list = true  # Preserves spaces within initializer lists.
+cpp_space_before_open_square_bracket = false  # No space before open square bracket.
+cpp_space_within_square_brackets = false  # No spaces within square brackets.
+cpp_space_before_empty_square_brackets = false  # No space before empty square brackets.
+cpp_space_between_empty_square_brackets = false  # No space between empty square brackets.
+cpp_space_group_square_brackets = true  # Groups square brackets with spaces.
+cpp_space_within_lambda_brackets = false  # No spaces within lambda function brackets.
+cpp_space_between_empty_lambda_brackets = false  # No spaces between empty lambda brackets.
+cpp_space_before_comma = false  # No space before commas.
+cpp_space_after_comma = true  # Adds spaces after commas.
+cpp_space_remove_around_member_operators = true  # Removes spaces around member operators (e.g., '.').
+cpp_space_before_inheritance_colon = false  # No space before inheritance colon (used in class definitions).
+cpp_space_before_constructor_colon = false  # No space before constructor colon.
+cpp_space_remove_before_semicolon = true  # Removes space before semicolons.
+cpp_space_after_semicolon = true  # Adds spaces after semicolons.
+cpp_space_remove_around_unary_operator = true  # Removes spaces around unary operators (e.g., '+', '-').
+cpp_space_around_assignment_operator = insert
+cpp_space_pointer_reference_alignment = right
+cpp_space_around_ternary_operator = insert
+cpp_wrap_preserve_blocks = all_one_line_scopes
