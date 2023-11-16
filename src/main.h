@@ -3,8 +3,7 @@
 
 #include "config.h"
 
-typedef struct
-{
+typedef struct {
 	WCHAR *RootPathName;
 	CONST WCHAR *hRSAKeyStr;
 	BOOL   bUnknown;

